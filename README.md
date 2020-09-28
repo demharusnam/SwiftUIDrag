@@ -2,7 +2,7 @@
 
 A simple and intuitive wrapper-view enabling dragging, floating, and/or collapsing for its content.  Written entirely in SwiftUI, this package is inspired by iOS 14's FaceTime Picture-in-Picture feature.
 
-![Floating TabView demo of SDView](tabview_preview.gif) ![VideoPlayer demo of SDView](video_preview.gif)
+![Floating TabView demo of SDView](tabview_preview.gif) ![VideoPlayer demo of SDView](video_preview.gif) ![Rectangle demo of SDView](rectangle_preview.gif)
 
 ## Usage 
 
@@ -24,7 +24,7 @@ SDView(floating: .leading, collapse: .trailing) { geo, state in
         )
 }
 ```
-The above code produces the following effect:
+The above code enables the following capabilities:
 
 ![Rectangle demo of SDView](rectangle_preview.gif)
 
@@ -122,7 +122,7 @@ The `SDContentState` parameter indicates the state of your content. Once again, 
 | `bottomTrailing` | content is floating on the bottom-trailing side of SDView |
 | `expanded` | content is neither collapse nor floating on any side of SDView |
 
-To take it a step further, you also get access to `bool` variables that allow for *swift* verification of the content state:
+To take it a step further, you also get access to `Bool` variables that allow for *swift* verification of the content state:
 
 | Option | Description |
 | -------- | ------------ |
