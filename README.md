@@ -4,6 +4,17 @@ A simple and intuitive wrapper-view enabling dragging, floating, and/or collapsi
 
 ![Floating TabView demo of SDView](tabview_preview.gif) ![VideoPlayer demo of SDView](video_preview.gif) ![Rectangle demo of SDView](rectangle_preview.gif)
 
+## Table of Contents
+- [Usage](#usage)
+- [Key Features](#key-features)
+    - [Alignment](#alignment)
+    - [Floating](#floating)
+    - [Collapse](#collapse)
+    - [Visible Size](#visible-size)
+    - [Content](#content)
+- [Installation](#installation)
+- [License](#license)
+
 ## Usage 
 
 ```swift
@@ -24,9 +35,7 @@ SDView(floating: .leading, collapse: .trailing) { geo, state in
         )
 }
 ```
-The above code enables the following capabilities:
-
-![Rectangle demo of SDView](rectangle_preview.gif)
+The above code enables the capabilities seen in the blue rectangle demo above.
 
 ## Key Features
 
@@ -85,7 +94,7 @@ The `floating` parameter enables you to float your content on the edges of the S
 
 ### Collapse
 
-The `collapse` parameter enables you to collapse your content into the sides of the SDView with a set `visibleWidth`. By default, it is set to `horizontal` which only enables collapsing on the `leading` and `trailing` sides. Customization is at the heart of this package, thus you get access to the following options:
+The `collapse` parameter enables you to collapse your content into the sides of the SDView with a set `visibleSize`. By default, it is set to `horizontal` which only enables collapsing on the `leading` and `trailing` sides. Customization is at the heart of this package, thus you get access to the following options:
 
 | Option | Description |
 | -------- | ------------ |
@@ -98,9 +107,9 @@ The `collapse` parameter enables you to collapse your content into the sides of 
 | `vertical` | enables collapsing content on either the top or bottom sides of SDView |
 | `all` | enables collapsing content on either the top, bottom, leading, trailing sides of SDView |
 
-### Visible Width
+### Visible Size
 
-The `visibleWidth` parameter determines how much width or height of your content should be visible upon collapse. By default it is set to 60 for both. 
+The `visibleSize` parameter determines how much width or height of your content should be visible upon collapse. By default it is set to 60 for both. 
 
 ### Content
 
@@ -139,8 +148,8 @@ To take it a step further, you also get access to `Bool` variables that allow fo
 
 SwiftUIDrag can be installed via Swift Package Manager (SPM) in Xcode:
 
-Navigate to the SPM (**File > Swift Packages > Add Package Dependecy...**). Then, either search the url (**https://github.com/demharusnam/SwiftUIDrag**) or the name of the package with myself as the owner.
+Navigate to the SPM (**File > Swift Packages > Add Package Dependency...**). Then, either search the url (**https://github.com/demharusnam/SwiftUIDrag**) or the name of the package with myself as the owner.
 
 ## License
 
-SwiftUIDrag is available under the MIT license. See license for more information.
+SwiftUIDrag is available under the MIT license. See LICENSE for more information.
