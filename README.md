@@ -1,6 +1,6 @@
 # SwiftUIDrag
 
-A simple and intuitive wrapper-view enabling dragging, floating, and/or collapsing for its content.  Written entirely in SwiftUI, SwiftUIDrag is inspired by iOS 14's Picture-in-Picture feature.
+A simple, customizable, and intuitive wrapper-view enabling dragging, floating, and/or collapsing for its content.  Written entirely in SwiftUI, SwiftUIDrag is inspired by iOS 14's Picture-in-Picture feature.
 
 ![Floating TabView demo of SDView](README_Assets/tabview_preview.gif) ![VideoPlayer demo of SDView](README_Assets/video_preview.gif) ![Rectangle demo of SDView](README_Assets/rectangle_preview.gif)
 
@@ -36,7 +36,7 @@ SDView(floating: .leading, collapse: .trailing) { geo, state in
         )
 }
 ```
-The above code enables the capabilities seen in the blue rectangle demo above.
+This code enables the capabilities seen in the blue rectangle demo above.
 
 ## Key Features
 
@@ -81,7 +81,7 @@ The `floating` parameter enables you to float your content on the edges of the S
 
 | Option | Description |
 | -------- | ------------ |
-| `[]` | disbales floating |
+| `[]` | disables floating |
 | `topLeading` | enables floating content on the top-leading side of SDView |
 | `topTrailing` | enables floating content on the top-trailing side of SDView |
 | `bottomLeading` | enables floating on the bottom-leading side of SDView |
@@ -138,8 +138,8 @@ To take it a step further, you also get access to `Bool` variables that allow fo
 | -------- | ------------ |
 | `isTop` | content is either collapsed or floating on the top side of SDView |
 | `isBottom `| content is either collapsed or floating on the bottom side of SDView |
-| `isLeading` | ontent is either collapsed or floating on the leading side of SDView  |
-| `isTrailing` | ontent is either collapsed or floating on the trailing side of SDView |
+| `isLeading` | content is either collapsed or floating on the leading side of SDView  |
+| `isTrailing` | content is either collapsed or floating on the trailing side of SDView |
 | `isCollapsed` | content is collapsed in SDView |
 | `isFloating` | content is floating in SDView |
 | `isExpanded` | content is expanded |
