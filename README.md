@@ -13,6 +13,7 @@ A simple and intuitive wrapper-view enabling dragging, floating, and/or collapsi
     - [Visible Size](#visible-size)
     - [Content](#content)
 - [Installation](#installation)
+- [Author](#author)
 - [License](#license)
 
 ## Usage 
@@ -152,7 +153,7 @@ SwiftUIDrag can be installed via Swift Package Manager (SPM) in Xcode:
 
 ## Author
 
-At the time of publishing SwiftUIDrag, I am a computer engineering student from Toronto, Canada. I love Swift, SwiftUI and creating software.
+At the time of publishing SwiftUIDrag, I am an undergraduate computer engineering student from Toronto, Canada. I love Swift, SwiftUI and creating software.
 
 If you have any questions regarding SwiftUIDrag, please feel free to contact [me](https://github.com/demharusnam). 
 
