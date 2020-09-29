@@ -39,7 +39,7 @@ The above code enables the capabilities seen in the blue rectangle demo above.
 
 ## Key Features
 
-Below is the default initializer which ***requires*** only one parameter: the content to inherit the SDView drag, floating, and/or collapse properties. The remaining parameters all have default values that can be left as is or customized for your use-case.
+Below is the default initializer which ***requires*** you to enter only one parameter: the content to inherit the SDView drag, floating, and/or collapse properties. The remaining parameters all have default values that can be left as is or customized for your use-case.
 
 ```swift
 SDView(
@@ -143,12 +143,20 @@ To take it a step further, you also get access to `Bool` variables that allow fo
 | `isFloating` | content is floating in SDView |
 | `isExpanded` | content is expanded |
 
-
 ## Installation
 
 SwiftUIDrag can be installed via Swift Package Manager (SPM) in Xcode:
 
-Navigate to the SPM (**File > Swift Packages > Add Package Dependency...**). Then, either search the url (**https://github.com/demharusnam/SwiftUIDrag**) or the name of the package with myself as the owner.
+1. Navigate to the SPM (**File > Swift Packages > Add Package Dependency...**)
+2. Either enter the url (**https://github.com/demharusnam/SwiftUIDrag**) or the name of the package with myself as the owner in the search bar.
+
+## Author
+
+At the time of publishing SwiftUIDrag, I am a computer engineering student from Toronto, Canada. I love Swift, SwiftUI and creating software.
+
+If you have any questions regarding SwiftUIDrag, please feel free to contact [me](https://github.com/demharusnam). 
+
+Happy hacking!
 
 ## License
 
