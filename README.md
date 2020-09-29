@@ -149,7 +149,7 @@ To take it a step further, you also get access to `Bool` variables that allow fo
 SwiftUIDrag can be installed via Swift Package Manager (SPM) in Xcode:
 
 1. Navigate to the SPM (**File > Swift Packages > Add Package Dependency...**)
-2. Either enter the url (**https://github.com/demharusnam/SwiftUIDrag**) or the name of the package with myself as the owner in the search bar.
+2. Either enter the URL (**https://github.com/demharusnam/SwiftUIDrag**) or the name of the package in the search bar. Select the one with myself (**demharusnam**) as the owner.
 
 ## Author
 
