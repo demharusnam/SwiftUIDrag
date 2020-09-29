@@ -2,7 +2,7 @@
 
 A simple and intuitive wrapper-view enabling dragging, floating, and/or collapsing for its content.  Written entirely in SwiftUI, this package is inspired by iOS 14's FaceTime Picture-in-Picture feature.
 
-![Floating TabView demo of SDView](/README_Assets/tabview_preview.gif) ![VideoPlayer demo of SDView](/README_Assets/video_preview.gif) ![Rectangle demo of SDView](/README_Assets/rectangle_preview.gif)
+![Floating TabView demo of SDView](README\ Assets/tabview_preview.gif) ![VideoPlayer demo of SDView](README\ Assets/video_preview.gif) ![Rectangle demo of SDView](README\ Assets/rectangle_preview.gif)
 
 ## Table of Contents
 - [Usage](#usage)
