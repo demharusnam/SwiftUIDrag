@@ -153,7 +153,7 @@ SwiftUIDrag can be installed via Swift Package Manager (SPM) in Xcode:
 
 ## Author
 
-My name is Mansur, and at the time of publishing SwiftUIDrag, I am an undergraduate computer engineering student from Toronto, Canada. I love Swift, SwiftUI, and creating software.
+My name is Mansur. At the time of publishing SwiftUIDrag, I am an undergraduate computer engineering student from Toronto, Canada. I love Swift, SwiftUI, and creating software.
 
 If you have any questions regarding SwiftUIDrag, please feel free to contact [me](https://github.com/demharusnam). 
 
