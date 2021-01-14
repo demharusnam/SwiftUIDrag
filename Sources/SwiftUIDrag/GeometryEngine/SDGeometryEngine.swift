@@ -1,6 +1,7 @@
 import SwiftUI
 
 // MARK: Geometry Engine
+/// The geometry engine powering all SwiftUIDrag computations.
 internal struct SDGeometryEngine {
     /// The *default* initialization of the `GeometryEngine`
     static let `default`: SDGeometryEngine = SDGeometryEngine(
@@ -100,7 +101,7 @@ internal struct SDGeometryEngine {
     /**
      Updates the location of the content view's `rect` in its `container`.
      
-     The location of the content `rect` is initially determined as a `CGPoint` which is anchored by the center of the content rect. Then, it is adjusted to match top leading anchor of the `rect` being updated.
+     The location of the content `rect` is initially determined as a `CGPoint` which is anchored by the center of the content rect. Then, it is adjusted to match the top leading anchor of the `rect` being updated.
      
      - Parameters:
         - rect: The content *rect* to be updated.

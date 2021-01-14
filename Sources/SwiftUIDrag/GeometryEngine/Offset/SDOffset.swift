@@ -15,12 +15,9 @@ internal extension SDGeometryEngine {
     struct SDOffset: SDOffsets {
         /// The computed floating/collapse offset for the content to translate *to the top* boundary of the SDView.
         var toTop: CGFloat {
-            print("tT 1")
             if inFloatingBounds.topLeading || inFloatingBounds.topTrailing {
-                print("tT 2")
                 return floatingOffset.toTop
             } else if inCollapseBounds.top {
-                print("tT 3")
                 return collapseOffset.toTop
             }
             

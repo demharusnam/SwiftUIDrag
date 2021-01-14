@@ -40,7 +40,7 @@ This code enables the capabilities seen in the blue rectangle demo above.
 
 ## Key Features
 
-Below is the default initializer which ***requires*** you to enter only one parameter: the content to inherit the SDView drag, floating, and/or collapse properties. The remaining parameters all have default values that can be left as is or customized for your use-case.
+Below is the default initializer which ***requires*** you to enter only one parameter: the content to inherit the SDView drag, floating, and/or collapse properties. The remaining parameters all have default values that can be left as is or can be customized for your use-case.
 
 ```swift
 SDView(
@@ -110,11 +110,11 @@ The `collapse` parameter enables you to collapse your content into the sides of 
 
 ### Visible Size
 
-The `visibleSize` parameter determines how much width or height of your content should be visible upon collapse. By default it is set to 60 for both. 
+The `visibleSize` parameter determines how much width or height of your content should be visible upon collapse. By default it is set to `60` for both. 
 
 ### Content
 
-The `content` parameter is  `@escaping` and `@ViewBuilder`-wrapped which allows you to escape it into curly braces for you to easily describe your content in. Additionally, you get two callback parameters: `GeometryProxy` and `SDContentState`. 
+The `content` parameter is  `@escaping`- and `@ViewBuilder`-wrapped which enables escaping into curly braces for you to easily describe your content in. Additionally, you get two callback parameters: `GeometryProxy` and `SDContentState`. 
 
 The `GeometryProxy` enables you to customize any framing, positioning, and/or sizing based on the SDView. 
 
@@ -149,11 +149,11 @@ To take it a step further, you also get access to `Bool` variables that allow fo
 SwiftUIDrag can be installed via Swift Package Manager (SPM) in Xcode:
 
 1. Navigate to the SPM (**File > Swift Packages > Add Package Dependency...**)
-2. Either enter the URL (**https://github.com/demharusnam/SwiftUIDrag**) or the name of the package in the search bar. Select the one with myself (**demharusnam**) as the owner.
+2. Either enter the URL (**https://github.com/demharusnam/SwiftUIDrag**) or the name of the package in the search bar. If you opted for the latter, select the displayed package with myself (**demharusnam**) as the owner.
 
 ## Author
 
-At the time of publishing SwiftUIDrag, I am an undergraduate computer engineering student from Toronto, Canada. I love Swift, SwiftUI and creating software.
+My name is Mansur, and at the time of publishing SwiftUIDrag, I am an undergraduate computer engineering student from Toronto, Canada. I love Swift, SwiftUI, and creating software.
 
 If you have any questions regarding SwiftUIDrag, please feel free to contact [me](https://github.com/demharusnam). 
 
