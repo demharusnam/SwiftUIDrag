@@ -1,4 +1,4 @@
-# SwiftUIDrag
+# SwiftUIDrag [NO LONGER MAINTAINED]
 
 A simple, customizable, and intuitive wrapper-view enabling dragging, floating, and/or collapsing for its content.  Written entirely in SwiftUI, SwiftUIDrag is inspired by iOS 14's Picture-in-Picture feature.
 
